@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Chinwendu Opara's GifTastic</title>
+        <!-- Reference to css reset sheet. -->
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <!-- Reference to main css styling sheet. -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Reference to Media Queries css styling sheet. -->
+        <!--<link rel="stylesheet" type="text/css" href="assets/css/sizing.css">-->
+        <!-- Ensures the page is mobile responsive. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <!-- Start of the contentContainer. -->
+        <div class="container" id="contentContainer">
+            <h1 class="titleText text-center">Let's Have A GifTastic Day!</h1>
+            <!--div buttons and fields row-->
+            <div class="row">
+                <!--Add a GIF Column-->
+                <div class="col-md-4">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <!--LABEL-->
+                            <label for="add-a-gif" id="titleHeader">ADD A GIF:</label><br>
+                            <!--INPUT FIELD-->
+                            <input type="text" for="addButton" class="form-control" id="buttonContent">
+                            <!--BUTTON-->
+                            <button type="button" class="btn btn-default addBtn" id="addButton">Add Subject</button>
+                        </div>
+                    </form>
+                </div>
+                <!--Select Your Choice Column-->
+                <div class="col-md-5" id="labelContainer">
+                    <label class="titleHeader">How Many Options Would You Like? </label><br>
+                    <select class="form-control" id="limit">
+                        <option value="1">1</option>
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="25" selected>25</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                    </select>
+                </div>
+                <!--How Many Column-->
+                <div class="col-md-3">
+                    <label class="titleHeader">Please Select Your Choice: </label><br>
+                    <select class="form-control" id="gifOptions">
+                        <option value="gifOptionsToPickFrom" id="option-1">Money</option>
+                        <option value="gifOptionsToPickFrom" id="option-2">Clothes</option>
+                        <option value="gifOptionsToPickFrom" id="option-3">Happiness</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 pull-right text-right" id="buttonContainer">
+                    <button type="button" id="searchButton" class="btn btnColor">Search</button>
+                    <button type="button" id="resetButton" class="btn btnColor2">Clear Gifs</button>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+            <!-- Beginning of the placeForClickedGifs div which will contain added gifs. -->
+            <div class="container-fluid">
+                <div class="full-width-div" id="placeForClickedGifs">
+                </div>
+                </div> <!-- End of the placeForClickedGifs div -->
+            </div>
+            <!-- Reference to jquery version 2.2.3. -->
+            <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+            <!-- Reference to giphy javascript sheet. -->
+            <script type="text/javascript" src="assets/javascript/giphy.js"></script>
+        </body>
+    </html>
