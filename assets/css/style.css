@@ -7,7 +7,6 @@ body {
     background: -ms-linear-gradient(left, rgba(255,104,104,1) 0%, rgba(255,104,104,0.85) 39%, rgba(255,183,0,0.61) 100%);
     background: linear-gradient(to right, rgba(255,104,104,1) 0%, rgba(255,104,104,0.8s5) 39%, rgba(255,183,0,0.61) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6868', endColorstr='#ffb700', GradientType=1 );
-
 }
 .pleaseSelectChoice {
     float: left;
@@ -32,7 +31,7 @@ body {
     margin-top: 30px;
 }
 .gifContentBox {
-    margin: auto;
+    margin: 0 auto;
     outline: 2px solid #a3a3a3;
 	border-radius: 5px;
 	-webkit-box-shadow: 0px 0px 10px #333333;
@@ -40,9 +39,9 @@ body {
 	box-shadow: 0px 0px 10px #333333;
 	width: 275px;
 	height: 275px;
-    margin-left: 7.5px;
+    /*margin-left: 7.5px;
     margin-right: 7.5px;
-    margin-bottom: 15px;
+    margin-bottom: 15px;*/
 /*	vertical-align: middle;*/
 	float: left;
 }
@@ -58,11 +57,11 @@ body {
 	transition: all .5s ease;
 	width: 250px;
 	height: 250px;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 12.5px;
     display: block;	
     position: relative;
-    opacity: .5;
+   /* opacity: .5;*/
 }
 
 .imageContainer:hover{
@@ -88,6 +87,7 @@ body {
     width: 100%;
     left: 0;
     right: 0;
+    margin: 0 auto;
 }
 
 #titleHeader {
