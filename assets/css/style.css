@@ -1,109 +1,104 @@
 body {
-    background: rgba(255,104,104,1);
-    background: -moz-linear-gradient(left, rgba(255,104,104,1) 0%, rgba(255,104,104,0.85) 39%, rgba(255,183,0,0.61) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,104,104,1)), color-stop(39%, rgba(255,104,104,0.85)), color-stop(100%, rgba(255,183,0,0.61)));
-    background: -webkit-linear-gradient(left, rgba(255,104,104,1) 0%, rgba(255,104,104,0.85) 39%, rgba(255,183,0,0.61) 100%);
-    background: -o-linear-gradient(left, rgba(255,104,104,1) 0%, rgba(255,104,104,0.85) 39%, rgba(255,183,0,0.61) 100%);
-    background: -ms-linear-gradient(left, rgba(255,104,104,1) 0%, rgba(255,104,104,0.85) 39%, rgba(255,183,0,0.61) 100%);
-    background: linear-gradient(to right, rgba(255,104,104,1) 0%, rgba(255,104,104,0.8s5) 39%, rgba(255,183,0,0.61) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6868', endColorstr='#ffb700', GradientType=1 );
+background: rgba(255,104,104,1);
+background: -moz-linear-gradient(left, rgba(255,104,104,1) 0%, rgba(255,104,104,0.85) 39%, rgba(255,183,0,0.61) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,104,104,1)), color-stop(39%, rgba(255,104,104,0.85)), color-stop(100%, rgba(255,183,0,0.61)));
+background: -webkit-linear-gradient(left, rgba(255,104,104,1) 0%, rgba(255,104,104,0.85) 39%, rgba(255,183,0,0.61) 100%);
+background: -o-linear-gradient(left, rgba(255,104,104,1) 0%, rgba(255,104,104,0.85) 39%, rgba(255,183,0,0.61) 100%);
+background: -ms-linear-gradient(left, rgba(255,104,104,1) 0%, rgba(255,104,104,0.85) 39%, rgba(255,183,0,0.61) 100%);
+background: linear-gradient(to right, rgba(255,104,104,1) 0%, rgba(255,104,104,0.8s5) 39%, rgba(255,183,0,0.61) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6868', endColorstr='#ffb700', GradientType=1 );
 }
 .pleaseSelectChoice {
-    float: left;
+float: left;
 }
 
 #buttonContainer {
-    margin-top: 30px;
+margin-top: 30px;
 }
 
 #contentContainer {
-    margin-top: 30px;
+margin-top: 30px;
 }
 
 .titleText {
-    margin-bottom: 30px;
-    font-weight: 700;
-    color: #ffffff;
+margin-bottom: 30px;
+font-weight: 700;
+color: #ffffff;
 }
 
 #placeForClickedGifs {
-    margin: 0 auto;
-    margin-top: 30px;
+margin: 0 auto;
+margin-top: 30px;
 }
 .gifContentBox {
-    margin: 0 auto;
-    outline: 2px solid #a3a3a3;
-	border-radius: 5px;
-	-webkit-box-shadow: 0px 0px 10px #333333;
-	-moz-box-shadow: 0px 0px 10px #333333;
-	box-shadow: 0px 0px 10px #333333;
-	width: 275px;
-	height: 275px;
-    /*margin-left: 7.5px;
-    margin-right: 7.5px;
-    margin-bottom: 15px;*/
-/*	vertical-align: middle;*/
-	float: left;
+margin: 0 auto;
+outline: 2px solid #a3a3a3;
+border-radius: 5px;
+-webkit-box-shadow: 0px 0px 10px #333333;
+-moz-box-shadow: 0px 0px 10px #333333;
+box-shadow: 0px 0px 10px #333333;
+width: 275px;
+height: 275px;
+float: left;
 }
 
 .imageContainer img{
-	width: 250px;
-	height: 250px;
+width: 250px;
+height: 250px;
 }
 
 .imageContainer{
-	-webkit-transition: all .5s ease;
-	-moz-transition: all .5s ease;
-	transition: all .5s ease;
-	width: 250px;
-	height: 250px;
-    margin: 0 auto;
-    margin-top: 12.5px;
-    display: block;	
-    position: relative;
-   /* opacity: .5;*/
+-webkit-transition: all .5s ease;
+-moz-transition: all .5s ease;
+transition: all .5s ease;
+width: 250px;
+height: 250px;
+margin: 0 auto;
+margin-top: 12.5px;
+display: block; 
+position: relative;
 }
 
 .imageContainer:hover{
-	-webkit-transform: scale(1.5);
-	-webkit-box-shadow:0px 0px 30px white;
-	position: relative;
-	z-index: 20;
-	opacity: 1;
+-webkit-transform: scale(1.5);
+-webkit-box-shadow:0px 0px 30px white;
+position: relative;
+z-index: 20;
+opacity: 1;
 }
 
 .ratingFont{
-	font-family: 'Helvetica', serif;
-	color: white;
-	text-shadow: 0px 0px 5px #000000, 0px 0px 10px #000000;	
-	position: absolute;
-	bottom: 10px;
-	right: 10px;
-	z-index: 10;
+font-family: 'Helvetica', serif;
+color: white;
+text-shadow: 0px 0px 5px #000000, 0px 0px 10px #000000; 
+position: absolute;
+bottom: 10px;
+right: 10px;
+z-index: 10;
 }
 
 .full-width-div {
-    position: relative;
-    width: 100%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+position: relative;
+width: 100%;
+left: 0;
+right: 0;
+margin: 0 auto;
 }
 
 #titleHeader {
-    color: #ffffff;
+color: #ffffff;
 }
 
 .titleHeader {
-    color: #ffffff;
+color: #ffffff;
 }
 
 .btnColor {
-    background: #ffb700;
-    color: #ffffff;
+background: #ffb700;
+color: #ffffff;
 }
 
 .btnColor2 {
-    background: #ffffff;
-    color: #ff6868;
+background: #ffffff;
+color: #ff6868;
 }
