@@ -4,3 +4,5 @@ Have you ever been searching for a Gif <strong>specific</strong> to a topic or c
 (This Application was developed with <strong>VanillaJS</strong> and the <strong>Giphy API</strong>.)
 
 <strong>DEMO BELOW:</strong>
+
+![gifsmeappgif](https://user-images.githubusercontent.com/24254780/30143583-9f642a74-9354-11e7-9436-1c42467694a1.gif)
